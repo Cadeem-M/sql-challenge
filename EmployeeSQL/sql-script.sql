@@ -36,7 +36,7 @@ SELECT * FROM department_manager
 
 CREATE TABLE department_employee(
 	employee_number INT NOT NULL,
-	department_number VARCHAR,
+	department_number VARCHAR NOT NULL,
 	PRIMARY KEY (employee_number,department_number),
 	FOREIGN KEY (employee_number) REFERENCES employees(employee_number),
 	FOREIGN KEY (department_number) REFERENCES department(department_number)
