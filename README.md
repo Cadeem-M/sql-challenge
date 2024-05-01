@@ -7,8 +7,4 @@ This challenge was approached via 3 steps. First, I began with Data Modeling. Us
 
 
 # In closing
-
-
-
-#CREDIT
-https://www.enterprisedb.com/postgres-tutorials/how-sort-rows-using-order-and-select-postgresql-6-examples#:~:text=The%20ORDER%20BY%20clause%20in,is%20sorted%20in%20ascending%20order.  --- how to order by
+This week's challenge was extremely fair. It essentially recapped what was learned in class the prior week - assuming I did everything fine enough. I did have troubles importing data into my tables. There were several times I would create a table but the columns would not appear in the schemas. Then, when I would go to import data from the csv files, I would get an error because there were no columns to import to. I'm not sure what the problem or solution was, but after copying and pasting my code into a new query script, everything ran fine.
